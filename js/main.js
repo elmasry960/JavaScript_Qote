@@ -25,14 +25,9 @@ var arrayQuore = [
 
 
 function gitQuote(){
-
 var rend = Math.floor(Math.random()*(arrayQuore.length));
-
 document.getElementById("quote_outbut").innerHTML= arrayQuore[rend].quote;
 document.getElementById("author_outbut").innerHTML= `-- ${arrayQuore[rend].authot}`;
-
-
-
 }
 
 
